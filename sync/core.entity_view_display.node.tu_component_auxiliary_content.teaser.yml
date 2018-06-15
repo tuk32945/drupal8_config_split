@@ -1,0 +1,22 @@
+uuid: c67b11e4-c346-4f2a-b15d-57654796e540
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tu_component_auxiliary_content.field_tu_component_aux_content
+    - node.type.tu_component_auxiliary_content
+  module:
+    - user
+_core:
+  default_config_hash: B8IhRH7iQ-_ay67o7ZwtxnfcO1A2Chl4YbVRBmzPQ9Y
+id: node.tu_component_auxiliary_content.teaser
+targetEntityType: node
+bundle: tu_component_auxiliary_content
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_tu_component_aux_content: true

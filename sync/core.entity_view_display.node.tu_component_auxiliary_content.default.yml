@@ -1,0 +1,30 @@
+uuid: 82f8a791-1448-4d3f-81ec-be12c8b02628
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tu_component_auxiliary_content.field_tu_component_aux_content
+    - node.type.tu_component_auxiliary_content
+  module:
+    - entity_reference_revisions
+    - user
+_core:
+  default_config_hash: OFktMQv_JfPO1aklqPeq9sEJhrGbkPbzpCE8iqeKojY
+id: node.tu_component_auxiliary_content.default
+targetEntityType: node
+bundle: tu_component_auxiliary_content
+mode: default
+content:
+  field_tu_component_aux_content:
+    type: entity_reference_revisions_entity_view
+    weight: 101
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

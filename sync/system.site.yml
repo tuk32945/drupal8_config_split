@@ -1,0 +1,14 @@
+uuid: 20b8575f-7101-4085-a5b8-63afbdadb1e0
+name: 'drupal u www'
+mail: tuk32945@temple.edu
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

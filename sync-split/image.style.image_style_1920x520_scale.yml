@@ -1,0 +1,17 @@
+uuid: b28f0df6-2f4d-4a3c-be60-c47100efd46d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: kKUOIebj0zNdAX6Ch7XOUYAwBEXuzUy7juLVrD5Jh1A
+name: image_style_1920x520_scale
+label: '1920X520 Scale'
+effects:
+  0f5e845f-e418-4441-902c-c3223cb8e6cd:
+    uuid: 0f5e845f-e418-4441-902c-c3223cb8e6cd
+    id: image_scale
+    weight: 1
+    data:
+      width: 1920
+      height: 520
+      upscale: false

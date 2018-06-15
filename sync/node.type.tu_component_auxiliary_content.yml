@@ -1,0 +1,19 @@
+uuid: 2350aa5b-69a4-4033-8bc5-8ba0abbd76e1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: pH9_EeGKq07yrAL9iGbhd9uPwUNgUDXRo0uwntF2FsE
+name: 'Auxiliary Content'
+type: tu_component_auxiliary_content
+description: 'This Module Will Create A Custom Content Type With the preferred Form/Display Settings, and load the Pgph content into a Content (Ent Ref) Field.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

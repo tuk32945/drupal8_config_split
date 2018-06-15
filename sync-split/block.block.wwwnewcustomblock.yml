@@ -1,0 +1,25 @@
+uuid: 3d7e95e9-0f44-4c50-be38-ebc59b98ab54
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fef4620e-34b7-4535-be4a-67c9a46efb88'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: wwwnewcustomblock
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:fef4620e-34b7-4535-be4a-67c9a46efb88'
+settings:
+  id: 'block_content:fef4620e-34b7-4535-be4a-67c9a46efb88'
+  label: 'www new custom block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

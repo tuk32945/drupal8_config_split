@@ -1,0 +1,17 @@
+uuid: 63d4b66d-9765-49dc-bf29-f4880178995e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wa6Xitgb95p2ajvh4g_BrH8fYzSoaFei135-Y3PDdA0
+name: image_style_580x350_scale
+label: '580x350 Scale'
+effects:
+  b47af937-c380-4378-b7fa-5fce0fceedc9:
+    uuid: b47af937-c380-4378-b7fa-5fce0fceedc9
+    id: image_scale
+    weight: 1
+    data:
+      width: 580
+      height: 350
+      upscale: false

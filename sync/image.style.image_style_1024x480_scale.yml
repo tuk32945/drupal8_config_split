@@ -1,0 +1,17 @@
+uuid: 636a0f78-0045-4256-a8e2-ae0cf68709da
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AwH9bKlfoM0ltSJQyZazIEbcxKmeL1u_akeX0hsyl4I
+name: image_style_1024x480_scale
+label: '1024x480 Scale'
+effects:
+  a98e3c99-537a-4022-b4ef-5a72417a9c79:
+    uuid: a98e3c99-537a-4022-b4ef-5a72417a9c79
+    id: image_scale
+    weight: 1
+    data:
+      width: 1024
+      height: 480
+      upscale: false

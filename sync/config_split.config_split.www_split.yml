@@ -1,0 +1,23 @@
+uuid: 2810e219-1019-42fc-abff-c43e0a69d281
+langcode: en
+status: true
+dependencies: {  }
+id: www_split
+label: www-split
+folder: sites/default/files/config_fr2_c1WCTJlIDQYjH3qsrXTiZnMi48Z13fwmjQ-u0vgIDAF0Ilx9zvLC5G5WdrAHsCI-GGXCtQ/sync-split
+module:
+  block_content: 0
+theme: {  }
+blacklist:
+  - block_content.type.basic
+  - field.field.block_content.basic.body
+  - field.storage.block_content.body
+  - image.style.image_style_1920x520_scale
+graylist:
+  - block.block.wwwnewcustomblock
+  - block_content.type.basic
+  - core.entity_form_display.block_content.basic.default
+  - core.entity_view_display.block_content.basic.default
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

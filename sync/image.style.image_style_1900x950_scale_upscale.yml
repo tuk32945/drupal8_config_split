@@ -1,0 +1,17 @@
+uuid: 19d20185-bcc7-434a-90e7-0f981d3cf096
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Xj0g1aJBchtYF1j9zwMTquOyh8A9ys4PjoAQNDei7jc
+name: image_style_1900x950_scale_upscale
+label: '1900x950 Scale Upscale'
+effects:
+  480e4e8f-7b3f-41ea-908b-c4d1a5e660e6:
+    uuid: 480e4e8f-7b3f-41ea-908b-c4d1a5e660e6
+    id: image_scale
+    weight: 1
+    data:
+      width: 1900
+      height: 950
+      upscale: true
